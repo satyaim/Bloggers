@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Blogger.com</title>
+        <link rel="stylesheet" href="main.css">
+        <script>
+            function clicked(a)
+            {
+                
+                b=document.getElementById("select");
+                b.id="gen";
+                a.id="select";
+            }
+        </script>
+    </head>
+    
+    
+    <body>
+        <div class="big-box">
+            <header id="top">
+                <h1><big>BLOGGER</big><small>.com</small></h1>
+            </header>
+            <section id="main">
+                <nav id="navign">
+                    <ul>
+                        <li id="select"  onclick="clicked(this)"><h3>HOME</h3></li>
+                        <li id="gen"  onclick="clicked(this)"><h3>AIM</h3></li>
+                        <li id="gen"  onclick="clicked(this)"><h3>READ</h3></li>
+                        <li id="gen"  onclick="clicked(this)"><h3>WRITE</h3></li>
+                        <li id="gen"  onclick="clicked(this)"><h3>SHARE</h3></li>
+                    </ul>
+                    <button type="submit" onclick="getElementById('navign').style.display='none'">&lt;&lt;&lt;<br/>COLLAPSE<br/>&lt;&lt;&lt;
+                    </button>
+                </nav>
+                <article id="rest">
+                    
+                    <div id="login">
+                        <h3>LOGIN</h3>
+                        <form>
+                            <div id="unit">
+                                USER ID <br/><br/>
+                                <input type="text">
+                            </div>
+                            <div id="unit">
+                                PASSWORD    <br/><br/>
+                                <input type="password">
+                            </div>
+                            <div id="unit">
+                                <button type="submit">LOGIN
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div id="signup">
+                        <h3>SIGNUP</h3>
+                        <form>
+                            <div id="unit">
+                                USER NAME <br/><br/>
+                                <input type="text">
+                            </div>
+                            <div id="unit">
+                                USER ID   <br/><br/>
+                                <input type="password">
+                            </div>
+                            <div id="unit">
+                                PASSWORD <br/><br/>
+                                <input type="text">
+                            </div>
+                            <div id="unit">
+                                EMAIL ADDRESS    <br/><br/>
+                                <input type="password">
+                            </div>
+                            <div id="unit">
+                                <button type="submit">SIGNUP
+                                </button>
+                            </div>
+                            
+                        </form>
+                    </div>
+                
+                </article>
+            </section>
+            <footer>
+                <h3>
+                BLOGGER.COM COPYRIGHT 2017
+                </h3>
+                The currency of blogging is authenticity and trust
+            </footer>
+        </div>
+    <body>
+</html>
